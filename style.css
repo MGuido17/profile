@@ -1,0 +1,92 @@
+body{
+  font-family: 'Forum', serif;
+  background-color: #E3E1D9;
+  color: #F0F0F0;
+  padding: 5px;
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+h1,h2 {
+  font-family: 'Bitter', serif;
+  color: #FFEECC;
+}
+
+h1 {
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 17px;
+  color: #F4F2DE;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0;
+}
+
+#insta, #tw{
+  font-size: 10px;
+}
+
+a {
+  font-family: 'Forum', serif;
+  text-decoration: none;
+  color: #F2EFE5;
+  font-size: 24px;
+  font-weight: light;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #7D7C7C;
+}
+
+#profile-pic {
+  width: 235px;
+  height: 275px;
+  border-radius: 50%;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: #2D3250;
+  padding: 1px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 5px solid #2D3250;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
